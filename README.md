@@ -10,4 +10,4 @@
 * 删除当前行	**ctrl+x**  
 * 复制当前行到下一行	**ctrl+d**  
 * 代码模板	**ctrl+j**  
-* 智能提示 **ctrl+alt+apace**
+* 智能提示 **ctrl+alt+space**
