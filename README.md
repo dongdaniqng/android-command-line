@@ -1,7 +1,7 @@
 
 ### Android Studio 快捷键
-
-* 代码格式化	**ctrl+alt+L**  
+---
+* 代码格式化	**ctrl+alt+L**  
 * 查看重写方法	**ctrl+o**  
 * 生成构造器/getter/setter	**alt+insert**  
 * 参数提示	**ctrl+p**  
