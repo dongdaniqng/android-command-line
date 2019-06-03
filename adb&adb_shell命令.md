@@ -46,13 +46,13 @@
 
    Pull命令后可不输入本地地址，不输入时文件会复制到当前终端所在目录
 
-8. adb connect 192.168.0.1 adb连接远程连接Android设备 
+8. adb tcpip 9999 ; adb connect 192.168.0.1:9999 adb连接远程连接Android设备 
 
 9. adb logcat -s ActivityManager 查看activity启动时间
 
 10. adb bugreport [-path] 获取bug日志
 
-    -path: 代表手机端日志保存路径
+   -path: 代表手机端日志保存路径
 
 11. adb root 以root权限运行
 
