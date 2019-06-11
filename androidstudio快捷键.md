@@ -11,8 +11,8 @@
 - 代码模板	**ctrl+j**  
 - 智能提示 **ctrl+alt+space**
 - F2 跳转至代码error处
--  打开/关闭project **Alt+1**
--  打开/关闭logcat **Alt+6**
+- 打开/关闭project **Alt+1**
+- 打开/关闭logcat **Alt+6**
 - 打开/关闭 选种类的继承关系 **Alt+8** 
 - 查找/替换 代码 **Ctrl+Shift+R** 
 - 跳转到某行 **Ctrl+G**
