@@ -43,4 +43,5 @@
     * git commit -m'init'
     * git remote add origin git仓库地址
     * git push -u origin master
+36.  git remote set-url origin 新ssh/https地址 将当前的地址替换为新地址
 
