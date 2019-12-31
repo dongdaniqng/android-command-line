@@ -74,3 +74,9 @@
 
 3. adb shell am start -n com.sankuai.meituan/com.sankuai.meituan.activity.Welcome 启动app
 
+4. adb shell ps 查看当前运行的进程
+
+5. adb shell cat proc/<进程pid>/oom_adj 查看当前进程优先级,4,5结合使用
+
+6. adb shell dumpsys batterystats --enable full-wake-history 允许获取电量数据；adb shell dumpsys batterystats –reset 重置当前电量数据 ；adb bugreport 获取电量数据
+
