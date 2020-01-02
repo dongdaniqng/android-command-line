@@ -35,7 +35,6 @@
 31. git checkout c08de9a          git checkout -b branch1    [找回被删除的分支,并创建]
 32. git log 分支1..分支2     [查看分支2比分支1多提交了什么]
 33. git log 分支1...分支2    [查看分支1与分支2的不同]
-
 34. git config --global --unset credential.helper 重置密码
 35. git本地推送至git
     * git init
@@ -44,4 +43,7 @@
     * git remote add origin git仓库地址
     * git push -u origin master
 36.  git remote set-url origin 新ssh/https地址 将当前的地址替换为新地址
-
+37. git stash clear 删除之前stash的缓存
+38. git stash list 展示所有的stash缓存列表
+39. git stash pop stash@{num} 还原下标是num的缓存
+40. git stash save  ‘message’ 缓存时添加记录
